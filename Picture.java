@@ -67,7 +67,13 @@ public class Picture
         
        
      }
-
+    /**
+     * Hacer que baje el sol
+     */
+    public void atardecer()
+    {
+     sun.slowMoveVertical(400);
+    }
     /**
      * Change this picture to black/white display
      */
